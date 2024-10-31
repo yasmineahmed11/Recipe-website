@@ -1,0 +1,42 @@
+@media(max-width: 1025px){
+  .pro-desc{
+    line-height: 20px;
+  }
+  .img-lat{
+    display: inline-block;
+    margin-top:15%;
+  }
+}
+
+@media(max-width: 769px){
+  .lat{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 426px){
+  .dets-title{
+    font-size: 30px;
+  }
+  .profile{
+    width: 20%;
+  }
+  .desc-subtitle{
+    font-size: 30px;
+  }
+  .latest-recipes{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    align-items: center;
+  }
+  .right-pro{
+    justify-content: center;
+    margin: auto;
+  }
+  .lat-left{
+    width: 80%;
+  }
+}

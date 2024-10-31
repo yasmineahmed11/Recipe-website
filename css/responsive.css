@@ -1,0 +1,141 @@
+@media(max-width: 1025px){
+  .recipename{
+    font-size: 22px;
+  }
+  .recipe-title{
+    line-height: 1.5em;
+  }
+}
+
+@media(max-width: 769px){
+  .mynav{
+    height: 15vh;
+    padding-top: 3%;
+  }
+  .navbar-brand{
+    margin-top: -40px;
+  }
+  .navbar-collapse{
+    background-color: white;
+    translate: 0px;
+    margin: 0;
+  }
+
+  .carousel-item img{
+    height: 70vh;
+  }
+  .carousel-card{
+    top: 40%;
+  }
+  .caro-bottom{
+    font-size: 24px;
+  }
+
+  .recipe-title{
+    margin: 7% auto 0;
+    line-height: 1.2em;
+  }
+  .recipe-title span{
+    display: inline-block;
+    margin-bottom: 10%;
+    width: 70%;
+    font-size: 25px;
+  }
+
+  .meal{
+    font-size: 25px;
+  }
+  #mealSelect option{
+    font-size: 16px;
+  }
+  .recipename{
+    font-size: 19px;
+  }
+}
+
+@media(max-width: 426px){
+  .mynav{
+    height: 20vh;
+    padding-top: 10%;
+  }
+  .navbar-toggler{
+    margin-top: 3%;
+    margin-right: 2%;
+  }
+  .navbar-brand{
+    margin-top: -30px;
+    margin-left: -20px;
+    font-size: 17px;
+  }
+  .navbar-collapse{
+    background-color: white;
+    translate: 0px;
+    margin: 0;
+  }
+
+  .carousel-inner{
+    margin-top: 15%;
+  }
+  .carousel-item img{
+    height: 70vh;
+    object-fit: cover;
+  }
+  .carousel-card{
+    top: 35%;
+  }
+  .caro-bottom{
+    font-size: 21px;
+  }
+
+  .recipe-title{
+    margin: 7% auto 0px;
+    line-height: 1.2em;
+  }
+  .recipe-title span{
+    margin-bottom: 7%;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .meal{
+    font-size: 22px;
+  }
+
+  .details-resp{
+    width: 85%;
+    margin: auto;
+  }
+
+  .footer-icon{
+    font-size: 40px;
+  }
+  .footer-icon-right{
+    font-size: 25px;
+  }
+  .foot-cook{
+    font-size: 17px;
+  }
+  
+  .foot-icons{
+    font-size: 25px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 376px){
+  .navbar-toggler{
+    margin-top: 2%;
+    margin-right: 0;
+  }
+}
+
+@media(max-width: 321px){
+  .navbar-toggler{
+    margin-left: -40px;
+  }
+  .navbar-brand{
+    margin-left: -40px;
+  }
+}
