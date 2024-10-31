@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
                        <p class="inst-dets">Let the croissants cool slightly before serving warm. Enjoy them with coffee or your favorite beverage!</p></li>
                   </ol>
               `,
-                  image: "../images/breaksweet1.jpg"
+                  image: "images/breaksweet1.jpg",
+                  detsimg: "../images/breaksweet1.jpg"
               },
               {
                   name: "Homemade whole grain bun with butter",
@@ -62,7 +63,8 @@ document.addEventListener("DOMContentLoaded", function () {
         </li>
     </ol>
 `,
-                  image: "../images/breaksweet2.jpg" 
+                  image: "images/breaksweet2.jpg",
+                  detsimg: "../images/breaksweet2.jpg"
               }
           ],
           savory: [
@@ -95,7 +97,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/breaksav1.jpg" 
+                  image: "images/breaksav1.jpg",
+                  detsimg: "../images/breaksav1.jpg"
               },
               {
                   name: "Grilled avocado tuna healthy mixed salad",
@@ -130,7 +133,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/breaksavor2.jpg" 
+                  image: "images/breaksavor2.jpg",
+                  detsimg: "../images/breaksavor2.jpg"
               }
           ]
       },
@@ -173,7 +177,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/lunch1.jpg" 
+                  image: "images/lunch1.jpg",
+                  detsimg: "../images/lunch1.jpg"
               },
           ],
           savory: [
@@ -210,7 +215,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/dinner1.jpg" 
+                  image: "images/dinner1.jpg",
+                  detsimg: "../images/dinner1.jpg"
               }
           ]
       },
@@ -245,7 +251,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/dinsweet.jpg" 
+                  image: "images/dinsweet.jpg",
+                  detsimg: "../images/dinsweet.jpg"
               }
           ],
           savory: [
@@ -282,7 +289,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/soup.jpg" 
+                  image: "images/soup.jpg",
+                  detsimg: "../images/soup.jpg"
               },
               {
                   name: "Seashells with spinach, basil & ricotta",
@@ -321,7 +329,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/dinn.jpg" 
+                  image: "images/dinn.jpg",
+                  detsimg: "../images/dinn.jpg"
               }
 
           ]
@@ -369,7 +378,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/sweet1-1.jpg" 
+                  image: "images/sweet1-1.jpg",
+                  detsimg: "../images/sweet1-1.jpg"
               },
               {
                   name: "Fresh sponge cake",
@@ -420,7 +430,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/dess2.jpg" 
+                  image: "images/dess2.jpg",
+                  detsimg: "../images/dess2.jpg"
               }
           ],
           savory: [
@@ -453,7 +464,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ol>
 `,
 
-                  image: "../images/desssav.jpg" 
+                  image: "images/desssav.jpg",
+                  detsimg: "../images/desssav.jpg"
               }
           ]
       }
@@ -484,7 +496,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.viewRecipe = function (meal, type, recipeName) {
       localStorage.setItem("selectedRecipe", JSON.stringify(recipes[meal][type].find(r => r.name === recipeName)));
-      window.location.href = "../html/recipe-details.html"; 
+      window.location.href = "html/recipe-details.html"; 
   };
 
   mealSelect.addEventListener("change", displayRecipes);
